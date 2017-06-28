@@ -18,7 +18,9 @@
 
 ## Implementation
 ![pid](./Result/sdc_pi2v1.jpeg)
+
 This project develops a PID controller for Udacity's self-driving car simulator.  The project is implemented in C++ and communicates with the simulator using a local WebSocket. The simulator sends the cross track error, velocity and orientation information to the controller which sends back the steering and throttle values to control the simulated car along the reference trajectory.
+
 ![pid](./Result/pid.gif)
 
 ## For more information and results
